@@ -2229,14 +2229,15 @@ input[type="button"] {
 }
 
 .single .single-post-title {
-    font: bold 42px;
     margin-bottom: 0;
-    font-size: 36px;
+    font-size: 23px;
     margin-top: 0;
-    font-weight: 700;
-    line-height: 46px;
+    line-height: 35px;
     letter-spacing: -0.025em;
     text-transform: none;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .single img {
@@ -4098,7 +4099,7 @@ div#social-footer ul li {
 
     .sidebar {
         padding: 0px 15px;
-        margin-top: 60px;
+        margin-top: 30px;
     }
 
     #block_2>.block:nth-child(1) .entry-title {
@@ -4109,7 +4110,7 @@ div#social-footer ul li {
 
 @media only screen and (max-width: 950px) {
     .sidebar {
-        padding: 80px 15px
+        padding: 0px 15px
     }
 }
 
@@ -4219,6 +4220,10 @@ span.post-label-link.nolabel {
     .padding-0 {
         padding: 0 !important;
     }
+
+    .single .single-post-title{
+        font-size: 16px;
+    }
 }
 
 .section-title h3 {
@@ -4261,7 +4266,9 @@ span.post-label-link.nolabel {
 
 .g-2 .col-lg-4,
 .g-2 .col-sm-4,
-.g-2 .col-lg-8 {
+.g-2 .col-lg-8, 
+.g-2 .col-lg-6,
+.g-2 .col-lg-10{
     padding-right: 4px !important;
     padding-left: 4px !important;
 }
@@ -4269,4 +4276,33 @@ span.post-label-link.nolabel {
 .g-2 .col-6 {
     padding-right: 4px !important;
     padding-left: 4px !important;
+}
+
+.page-title-area {
+    background-image: url(https://dummyimage.com/1920x200/ccc/ccc.jpg);
+    background-size: cover;
+    height: auto;
+    background-position: center;
+}
+
+.article__grid{
+    margin-bottom: 10px !important;
+}
+.listing ul{
+    padding-left: 2em !important;
+}
+.listing ul li{
+    list-style: square;
+}
+.footer_bottom .d-flex{
+    gap: 20px;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.footer_bottom ul li a{
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 12px !important;
 }
