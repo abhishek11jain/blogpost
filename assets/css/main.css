@@ -3,7 +3,7 @@ html {
     font-family: "Roboto Condensed", sans-serif;
 }
 
-*{
+* {
     text-decoration: none !important;
 }
 
@@ -425,7 +425,7 @@ input[type=submit]:focus,
 
 .post-filter-message {
     display: block;
-    font: normal bold 36px , sans-serif;
+    font: normal bold 36px, sans-serif;
     font-size: 13px;
     font-weight: 400;
     color: #222222;
@@ -475,7 +475,7 @@ body.open {
 }
 
 .no-padding {
-    padding: 0 !important;
+    padding: 4px !important;
 }
 
 .no_result {
@@ -578,7 +578,7 @@ header {
 .logo-area .page-header-title {
     text-transform: uppercase;
     letter-spacing: 5px;
-    font: normal bold 36px , sans-serif;
+    font: normal bold 36px, sans-serif;
     color: #000000;
     margin: 0;
     opacity: 1;
@@ -743,7 +743,6 @@ span.closebtn {
 }
 
 .main-menu ul li a {
-    font: normal normal 100% Roboto;
     display: block;
     color: #000;
     font-size: 13px;
@@ -882,7 +881,6 @@ body.open {
     align-items: center;
     background: #ffffff;
     height: 55px;
-    border-bottom: 1px solid #e6e6e6;
 }
 
 .mobile-logo {
@@ -895,7 +893,7 @@ body.open {
 .mobile-logo .page-header-title {
     text-transform: uppercase;
     letter-spacing: 5px;
-    font: normal bold 36px , sans-serif;
+    font: normal bold 36px, sans-serif;
     font-size: 40px;
     display: block;
     color: #000000;
@@ -1092,7 +1090,7 @@ header>.fixed-nav {
 }
 
 #featured.swiper-container .featured-overlay .featured-title {
-    font: bold 42px ;
+    font: bold 42px;
     font-size: 48px;
     padding-left: 12%;
     padding-right: 12%;
@@ -1101,7 +1099,7 @@ header>.fixed-nav {
 }
 
 #grid.swiper-container .featured-overlay .featured-title {
-    font: bold 42px ;
+    font: bold 42px;
     font-size: 28px;
     padding-bottom: 16px;
     padding-top: 7px;
@@ -1298,7 +1296,7 @@ span.post-categories {
 }
 
 .block h2.entry-title {
-    font: bold 42px ;
+    font: bold 42px;
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 0;
@@ -1523,7 +1521,7 @@ span.post-categories {
 #featured_1 .entry-title,
 #featured_2 .entry-title,
 #featured_3 .entry-title {
-    font: bold 42px ;
+    font: bold 42px;
     text-transform: capitalize;
     margin: 0;
     font-size: 18px !important;
@@ -1539,8 +1537,8 @@ span.post-categories {
 #featured_1>.block:nth-child(1) .entry-title,
 #featured_2>.block:nth-child(1) .entry-title,
 #featured_3>.block:nth-child(1) .entry-title {
-    font-size: 30px !important;
-    line-height: 36px !important;
+    font-size: 30px;
+    line-height: 36px;
 }
 
 #block_4 .content .text {
@@ -1550,7 +1548,7 @@ span.post-categories {
 }
 
 #block_4 .content .text h3 {
-    font: bold 42px ;
+    font: bold 42px;
     font-size: 34px;
     font-weight: 700;
     max-width: 600px;
@@ -1592,9 +1590,16 @@ span.post-categories {
 }
 
 .list-post .blog-box {
-    margin-bottom: 40px;
     display: flex;
     align-items: center;
+}
+
+.list-post {
+    margin-bottom: 10px;
+}
+
+.list-post:last-child {
+    margin-bottom: 0px !important;
 }
 
 .blog-grid .blog-box .post-label>a,
@@ -1674,12 +1679,11 @@ article.standard-post {
 }
 
 .blog-box .item-content .item-title {
-    font: bold 42px ;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
     margin-top: 15px;
-    line-height: 1.5;
+    line-height: 28px;
     overflow: hidden;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
@@ -1702,8 +1706,8 @@ article.standard-post {
 }
 
 .blog-box .item-content p {
-    font: 14px Open Sans;
-    line-height: 27px;
+    font-size: 14px;
+    line-height: 25px;
     margin: 0 auto 13px;
     overflow: hidden;
     -o-text-overflow: ellipsis;
@@ -2225,7 +2229,7 @@ input[type="button"] {
 }
 
 .single .single-post-title {
-    font: bold 42px ;
+    font: bold 42px;
     margin-bottom: 0;
     font-size: 36px;
     margin-top: 0;
@@ -2486,7 +2490,7 @@ input[type="button"] {
 }
 
 .author-bio h5 {
-    font: bold 42px ;
+    font: bold 42px;
     font-size: 22px;
     line-height: 24px;
     font-weight: 700;
@@ -2520,7 +2524,7 @@ input[type="button"] {
 }
 
 .related-posts .title {
-    font: bold 42px ;
+    font: bold 42px;
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
@@ -2570,7 +2574,7 @@ input[type="button"] {
 }
 
 .related-posts .item-title {
-    font: bold 42px ;
+    font: bold 42px;
     font-size: 16px;
     font-weight: 600;
     text-transform: capitalize;
@@ -2607,7 +2611,7 @@ input[type="button"] {
 }
 
 .comments h3 {
-    font: bold 42px ;
+    font: bold 42px;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -2639,7 +2643,7 @@ input[type="button"] {
 }
 
 .comments .user {
-    font: bold 42px ;
+    font: bold 42px;
     letter-spacing: 2px;
     color: #424242;
     display: inline-block;
@@ -2886,7 +2890,7 @@ body.is-page .single .post-meta {
 }
 
 .sidebar .widget:not(:first-child) {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .widget.Image img {
@@ -2896,7 +2900,7 @@ body.is-page .single .post-meta {
 }
 
 .widget.Image .widget-content .name {
-    font: bold 42px ;
+    font: bold 42px;
     font-size: 17px;
     font-weight: 700;
     line-height: 28px;
@@ -3125,6 +3129,7 @@ a.openBtn {
 .PopularPosts .popular-post-list>li {
     display: flex;
     margin-top: 1rem;
+    align-items: center;
     padding: 0 0;
     margin-bottom: 18px;
     position: relative;
@@ -3141,7 +3146,7 @@ a.openBtn {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
     width: 100%;
@@ -3151,7 +3156,7 @@ a.openBtn {
     -ms-border-radius: 50%;
     color: #eee;
     border-color: #fff;
-    background-color: #0000006b;
+    background-color: #0000006c;
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     display: flex;
@@ -3187,13 +3192,18 @@ a.openBtn {
 }
 
 .PopularPosts .popular-post-title {
-    font: normal 16px ;
     color: #000000;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
     margin-bottom: 8px;
     text-transform: capitalize;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .PopularPosts .post-date {
@@ -3201,7 +3211,7 @@ a.openBtn {
     line-height: 11px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #777777;
+    color: #d6249f;
 }
 
 .recent-feeds li.feeds-item {
@@ -3237,7 +3247,7 @@ a.openBtn {
 }
 
 .recent-feeds .feeds-entry h4 {
-    font: bold 42px ;
+    font: bold 42px;
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 8px;
@@ -3340,7 +3350,7 @@ ul.label-cloud li a:hover {
 }
 
 .FollowByEmail .subscribe-box h4 {
-    font: bold 42px ;
+    font: bold 42px;
     font-size: 14px;
     line-height: 24px;
     color: #b1b1be;
@@ -3412,7 +3422,7 @@ select.archive-menu.custom-select:focus {
 }
 
 .instagram-title>h4 {
-    font: normal bold 36px , sans-serif;
+    font: normal bold 36px, sans-serif;
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 0;
@@ -4145,92 +4155,118 @@ span.post-label-link.nolabel {
 }
 
 
-.button {
-    line-height: 1;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: .75rem;
-    background-color: var(--clr);
-    color: #fff;
-    border-radius: 10rem;
-    font-weight: 600;
-    padding: .75rem 1.5rem;
-    padding-left: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    transition: background-color .3s;
-  }
-  
-  .button__icon-wrapper {
-    flex-shrink: 0;
-    width: 25px;
-    height: 25px;
-    position: relative;
-    color: var(--clr);
-    background-color: #fff;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-  }
-  
-  .button:hover {
-    background-color: #000;
-  }
-  
-  .button:hover .button__icon-wrapper {
-    color: #000;
-  }
-  
-  .button__icon-svg--copy {
-    position: absolute;
-    transform: translate(-150%, 150%);
-  }
-  
-  .button:hover .button__icon-svg:first-child {
-    transition: transform .3s ease-in-out;
-    transform: translate(150%, -150%);
-  }
-  
-  .button:hover .button__icon-svg--copy {
-    transition: transform .3s ease-in-out .1s;
-    transform: translate(0);
-  }
+.padding-t5 {
+    padding-top: 2rem !important;
+}
 
+.padding-b5 {
+    padding-bottom: 2rem !important;
+}
 
-  @media only screen and (max-width : 767px){
+.pp-2 {
+    padding: 10px;
+}
+
+@media only screen and (max-width : 767px) {
     #featured-area .container-fluid.no-padding .text {
         padding: 15px !important;
     }
-    #featured_1>.block:nth-child(1) .entry-title, #featured_2>.block:nth-child(1) .entry-title, #featured_3>.block:nth-child(1) .entry-title{
-        font-size: 20px !important;
+
+    #featured_1>.block:nth-child(1) .entry-title,
+    #featured_2>.block:nth-child(1) .entry-title,
+    #featured_3>.block:nth-child(1) .entry-title {
+        font-size: 20px;
     }
-    .post-meta{
+
+    .post-meta {
         font-size: 11px !important;
     }
-    #featured-area .post-categories a, .post-categories .post-cat {
+
+    #featured-area .post-categories a,
+    .post-categories .post-cat {
         font-size: 9px !important;
         line-height: 10px;
         padding: 3px 7px;
         margin-right: 5px;
         margin-bottom: 5px;
     }
-    #featured_1>.block:nth-child(1){
+
+    #featured_1>.block:nth-child(1) {
         height: 250px !important;
     }
-    #featured_1{
-        gap: 4px !important;
-        grid-template-rows:250px !important;
-    }
-  }
 
-  .g-2{
-    --bs-gutter-x : 0.5rem !important;
-    --bs-gutter-y : 0.5rem !important;
-  }
-  .g-2 .col-6{
+    #featured_1 {
+        gap: 4px !important;
+        grid-template-rows: 250px !important;
+    }
+
+    .padding-t2 {
+        padding-top: 1rem !important;
+    }
+
+    .padding-b2 {
+        padding-bottom: 1rem !important;
+    }
+
+    #featured_1 .entry-title,
+    #featured_2 .entry-title,
+    #featured_3 .entry-title {
+        font-weight: 500 !important;
+        line-height: 25px !important;
+        font-size: 15px !important;
+    }
+
+    .padding-0 {
+        padding: 0 !important;
+    }
+}
+
+.section-title h3 {
+    padding: 0px !important;
+    font-size: 20px;
+}
+
+
+.btn-theme {
+    border-radius: 0 !important;
+    background: #000 !important;
+    color: #fff !important;
+    padding: 3px 8px !important;
+    transition: 0.5s ease-in-out !important;
+}
+
+.btn-theme:hover {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1px solid #000 !important;
+}
+
+.article__content {
+    padding: 10px;
+}
+
+.article__content a {
+    color: #636363;
+}
+
+.article__content h2 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.g-2 {
+    --bs-gutter-x: 0.5rem !important;
+    --bs-gutter-y: 0.5rem !important;
+}
+
+.g-2 .col-lg-4,
+.g-2 .col-sm-4,
+.g-2 .col-lg-8 {
     padding-right: 4px !important;
     padding-left: 4px !important;
-  }
+}
+
+.g-2 .col-6 {
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+}
